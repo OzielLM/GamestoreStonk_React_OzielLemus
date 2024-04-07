@@ -1,0 +1,44 @@
+.carousel{
+    justify-content: center;
+}
+
+.cards{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: darkgrey;
+}
+
+.sidebar{
+    padding-top: 1rem;
+    // background: dark;
+    width: 20rem;
+    height: calc(120vh - 50px);
+    border-right: 1px solid;
+    ul{
+        list-style: none;
+        padding: 1rem 1rem;
+        li{
+            margin-bottom: 1rem;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.flex{
+    display: flex;
+}
+
+.icon{
+    margin-right: 6px;
+}
+
+.backgroundPaginaPrincipal{
+    background-color: grayscale($color: #404040);
+}
+
+.imgCarousel{
+    border: 3px solid;
+}
